@@ -3,7 +3,7 @@
 
 // Javascript program to find day of a given date
 
-function dayofweek(d, m, y)
+function solution(d, m, y)
 {
 	let t = [ 0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4 ];
 	y -= (m < 3) ? 1 : 0;
@@ -12,7 +12,7 @@ function dayofweek(d, m, y)
 
 // Driver Code
 
-	let day = dayofweek(30, 8, 2010);
+	let day = solution(30, 8, 2010);
 	document.write(Math.round(day));
 
 </script>
